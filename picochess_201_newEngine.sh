@@ -37,12 +37,11 @@ sudo cp -R Chess-Engines-for-Raspberry-Pi-by-Al/arm6l/* /opt/picochess/engines/a
 sudo cp -R Chess-Engines-for-Raspberry-Pi-by-Al/arm7l/* /opt/picochess/engines/armv7l
 sudo chmod 755 -R /opt/picochess/engines
 
-#Get Weights on http://lczero.org/networks/
-wget http://lczero.org/get_network?sha=20f06b2ee03c4a10a04202277facccdbdc9362b3360ac8c575c4e44c5ab41ba7
-cp get_network\?sha\=20f06b2ee03c4a10a04202277facccdbdc9362b3360ac8c575c4e44c5ab41ba7 weights.txt
-rm get_network\?sha\=20f06b2ee03c4a10a04202277facccdbdc9362b3360ac8c575c4e44c5ab41ba7
+#Get Weights on http://lczero.org/networks/ 
+wget http://lczero.org/get_network?sha=1d71df3f0a6c90ef1132e858096486acf6dc7e2c91420fedc56e0167131af8de
+cp 'get_network?sha=1d71df3f0a6c90ef1132e858096486acf6dc7e2c91420fedc56e0167131af8de' weights.txt 
+rm 'get_network?sha=1d71df3f0a6c90ef1132e858096486acf6dc7e2c91420fedc56e0167131af8de'
 sudo mv weights.txt /opt/picochess/weigths.txt
-sudo chmod 755 /opt/picochess/weigths.txt
 
 #Cleaning up
 sudo rm -R Chess-Engines-for-Raspberry-Pi-by-Al
