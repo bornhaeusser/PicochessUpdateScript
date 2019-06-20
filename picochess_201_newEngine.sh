@@ -9,6 +9,10 @@ sudo apt-get upgrade
 sudo killall  python3
 
 #Git Clone repositorys
+#For original Jrmang Picochess Version uncomment next line
+#https://github.com/jromang/picochess.git
+
+#For 201 Picochess Version uncomment next line
 git clone https://github.com/tosca07/picochess.git
 git clone https://github.com/well69/Chess-Engines-for-Raspberry-Pi-by-Al.git
 
@@ -16,6 +20,11 @@ git clone https://github.com/well69/Chess-Engines-for-Raspberry-Pi-by-Al.git
 sudo mkdir /opt/backup/
 sudo mkdir /opt/backup/picochess
 sudo cp -R /opt/picochess /opt/backup/picochess/picochess_$(date +%Y%m%d_%H%M%S)
+
+#Remove Picochess exept picochess.ini
+cd /opt/picochess
+sudo rm -v -R !("picochess.ini")
+cd /home/pi/
 
 # Copy new Picochess 2.01
 sudo cp -R /home/pi/picochess/ /opt/
