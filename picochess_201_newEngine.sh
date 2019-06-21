@@ -11,7 +11,7 @@ sudo killall  python3
 
 #Git Clone repositorys
 #For original Jrmang Picochess Version uncomment next line
-#https://github.com/jromang/picochess.git
+#git clone https://github.com/jromang/picochess.git
 
 #For 201 Picochess Version uncomment next line
 git clone https://github.com/tosca07/picochess.git
