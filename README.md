@@ -1,5 +1,5 @@
 # PicochessUpdateScript
-Update Script by Dominik Bornhäußer
+Update Script by Dominik Bornhäußer for latest Picochess Image https://picochess.com/picochess-images/
 
 Picochess 2.01
 
