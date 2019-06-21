@@ -4,6 +4,7 @@
 #Make Script Executable
 #sudo chmod +x picochess_201_newEngine.sh
 sudo apt-get update
+sudo apt-get upgrade
 sudo rpi-update c50c65e52bad69e8fa7d6576d9e2399eade7faf6
 
 sudo killall  python3
