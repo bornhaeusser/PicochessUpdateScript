@@ -18,7 +18,7 @@ git clone https://github.com/tosca07/picochess.git
 git clone https://github.com/well69/Chess-Engines-for-Raspberry-Pi-by-Al.git
 
 #Safety Copy Picochess
-sudo mkdir /opt/backup/
+sudo mkdir /opt/backup
 sudo mkdir /opt/backup/picochess
 sudo cp -R /opt/picochess /opt/backup/picochess/picochess_$(date +%Y%m%d_%H%M%S)
 
