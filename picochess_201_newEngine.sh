@@ -11,11 +11,11 @@ sudo killall  python3
 
 #Git Clone repositorys
 #For original Jrmang Picochess Version uncomment next line
-#git clone https://github.com/jromang/picochess.git
+git clone https://github.com/jromang/picochess.git
 
 #For 201 Picochess Version uncomment next line
-git clone https://github.com/tosca07/picochess.git
-git clone https://github.com/well69/Chess-Engines-for-Raspberry-Pi-by-Al.git
+#git clone https://github.com/tosca07/picochess.git
+#git clone https://github.com/well69/Chess-Engines-for-Raspberry-Pi-by-Al.git
 
 #Safety Copy Picochess
 sudo mkdir -p /opt/backup
@@ -46,7 +46,7 @@ sudo mv weights.txt /opt/picochess/weigths.txt
 sudo rm -R Chess-Engines-for-Raspberry-Pi-by-Al
 sudo rm -R picochess
 
-#Clear History of you shell If you want
+#Clear History of your shell If you want
 #history -c
 
 sudo reboot
